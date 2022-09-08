@@ -64,3 +64,9 @@ The timeframes are only estimates and may vary according to how the class is pro
 
 - Presentation: How language elements like slices, maps, and channels might benefit from generics
 Q&A
+
+---
+
+## Resources
+
+- [Go in 3 Weeks Generics](https://github.com/jboursiquot/go-in-3-weeks/wiki/Generics) by Johny Boursiquot

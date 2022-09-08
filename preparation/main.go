@@ -1,4 +1,8 @@
-package preparation
+package main
+
+import (
+	"fmt"
+)
 
 func main() {
 	var intStack Stack[int]
@@ -6,5 +10,11 @@ func main() {
 	intStack.Push(20)
 	intStack.Push(30)
 	v, ok := intStack.Pop()
+	fmt.Println(v, ok)
+	v, ok = intStack.Pop()
+	fmt.Println(v, ok)
+	v, ok = intStack.Pop()
+	fmt.Println(v, ok)
+	v, ok = intStack.Pop()
 	fmt.Println(v, ok)
 }

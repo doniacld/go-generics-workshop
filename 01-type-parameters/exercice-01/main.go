@@ -10,9 +10,9 @@ func printInt(i int) { fmt.Println(i) }
 func printBool(b bool) { fmt.Println(b) }
 
 // version with generics
-// print the input regarding its type
-func printAny[T any](input T) {
-	fmt.Println(input)
+// printAny prints the input regarding its type
+func printAny[T any](v T) {
+	fmt.Println(v)
 }
 
 func main() {
